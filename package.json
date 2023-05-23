@@ -1,0 +1,17 @@
+{
+  "name": "iwvy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'cd backend && npm start' 'cd client && npm start'",
+    "setup":  "concurrently 'cd backend && npm install' 'cd client && npm install'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
